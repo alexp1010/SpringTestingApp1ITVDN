@@ -1,7 +1,0 @@
-com\opal\controllers\HelloITVDNController.class
-com\opal\persistence\dao\services\implementations\EmployeeSimpleServiceImpl.class
-com\opal\controllers\EmployeeController.class
-com\opal\persistence\dao\repositories\EmployeeRepository.class
-com\opal\controllers\User.class
-com\opal\persistence\model\Employee.class
-com\opal\persistence\dao\services\interfaces\EmployeeSimpleService.class
