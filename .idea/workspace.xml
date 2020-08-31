@@ -1,48 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f78192bb-85b1-4993-ba7d-7a1d61d8a7f6" name="Default Changelist" comment="" />
+    <list default="true" id="016f1e33-0ca1-4cf4-ae31-2c8239da9bb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/employee/search-results.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opal/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opal/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opal/persistence/dao/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opal/persistence/dao/repositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opal/persistence/dao/services/implementations/EmployeeSimpleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opal/persistence/dao/services/implementations/EmployeeSimpleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opal/persistence/dao/services/interfaces/EmployeeSimpleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opal/persistence/dao/services/interfaces/EmployeeSimpleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/employee/employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employee/employees.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1geLzHBAYCeP5vlFxCtdfAOPhLV" />
+  <component name="ProjectId" id="1gpcgad4u2RDwwGDpEuGk3F8Q32" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="LombokPluginEnabledInProject" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.55287355" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/employee" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\opal\Projects\SpringMVC\src\main\webapp" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.opal.persistence.dao.repository" />
-      <recent name="com.opal.controllers" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.opal" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\opal\Projects\SpringMVC\src\main\webapp" />
-      <recent name="C:\Users\opal\Projects\SpringMVC\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\opal\Projects\SpringDataApp1ITVDN\src\main\webapp\employee" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,7 +45,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Remote.remote">
-    <configuration name="maven dependency:tree -Dverbose" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="dependency:tree" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -99,7 +86,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.maven dependency:tree -Dverbose" />
+      <item itemvalue="Maven.dependency:tree" />
       <item itemvalue="Remote.remote" />
     </list>
   </component>
@@ -108,28 +95,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f78192bb-85b1-4993-ba7d-7a1d61d8a7f6" name="Default Changelist" comment="" />
-      <created>1598470371565</created>
+      <changelist id="016f1e33-0ca1-4cf4-ae31-2c8239da9bb8" name="Default Changelist" comment="" />
+      <created>1598815086257</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598470371565</updated>
+      <updated>1598815086257</updated>
     </task>
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/opal/controllers/EmployeeController.java</url>
-          <line>22</line>
+          <line>59</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/opal/controllers/EmployeeController.java</url>
-          <line>32</line>
+          <line>35</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

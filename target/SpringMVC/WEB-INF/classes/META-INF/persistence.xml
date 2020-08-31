@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<persistence
+        xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+                            http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+        xmlns="http://java.sun.com/xml/ns/persistence" version="1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <persistence-unit name="item" transaction-type="RESOURCE_LOCAL">
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test"/>
+            <property name="hibernate.connection.useUnicode" value="true"/>
+            <property name="format_sql" value="true"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+    </persistence-unit>
+</persistence>

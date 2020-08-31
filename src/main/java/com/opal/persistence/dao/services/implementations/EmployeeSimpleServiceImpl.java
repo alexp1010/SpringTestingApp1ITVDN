@@ -8,15 +8,35 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class EmployeeSimpleServiceImpl implements EmployeeSimpleService {
-    @Autowired
     private EmployeeRepository employeeRepository;
 
     @Override
     public List<Employee> findAll() {
         return Lists.newArrayList(employeeRepository.findAll());
+    }
+
+    @Override
+    public Optional<Employee> findById(long id) {
+        return employeeRepository.findById(id);
+    }
+
+    @Override
+    public List<Employee> findEmployeeByName(String name) {
+        return employeeRepository.findEmployeeByName(name);
+    }
+
+    @Override
+    public List<Employee> findEmployeeByNameAndPosition(String name, String position) {
+        return employeeRepository.findEmployeeByNameAndPosition(name, position);
+    }
+
+    @Override
+    public List<Employee> findEmployeeByNameAndPhone(String name, String phone) {
+        return employeeRepository.getPhone(name, phone);
     }
 
     @Override
@@ -26,6 +46,16 @@ public class EmployeeSimpleServiceImpl implements EmployeeSimpleService {
 
     @Override
     public void removeById(long id) {
+        employeeRepository.deleteById(id);
+    }
 
+    @Override
+    public void listAllEmployee() {
+        employeeRepository.findAll().forEach(employee -> System.out.println(employee.getId()));
+    }
+
+    @Autowired
+    public void setEmployeeRepository(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
     }
 }
