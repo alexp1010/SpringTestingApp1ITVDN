@@ -16,3 +16,4 @@ set CATALINA_OPTS="-agentlib:jdwp=transport=dt_socket,address=1043,server=y,susp
 
 ------
 To debug in Intellij Idea create a remote configuration with port 1043.
+"# SpringTestingApp1ITVDN" 
